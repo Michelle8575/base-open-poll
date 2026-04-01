@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useAccount, useWaitForTransactionReceipt, useWriteContract } from "wagmi";
 import { pollAbi, pollContract } from "@/lib/contract";
+import { APP_NAME, TRACKING_APP_ID } from "@/lib/app-config";
 import { trackTransaction } from "@/utils/track";
 
 const VOTE_STORAGE_KEY = "base-open-poll:vote";
@@ -20,7 +21,7 @@ export function CastVoteButton({ selectedOption, disabled }: CastVoteButtonProps
   useEffect(() => {
     if (isSuccess && hash && address && selectedOption !== null) {
       window.localStorage.setItem(`${VOTE_STORAGE_KEY}:${address.toLowerCase()}`, String(selectedOption));
-      trackTransaction("app-001", "base-open-poll", address, hash);
+      trackTransaction(TRACKING_APP_ID, APP_NAME, address, hash);
     }
   }, [address, hash, isSuccess, selectedOption]);
 
