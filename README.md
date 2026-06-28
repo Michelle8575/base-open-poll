@@ -70,3 +70,11 @@ cd base-open-poll
 ```
 
 Install dependencies using the package manager configured for the project:
+
+```bash
+npm install
+```
+
+Run the local development server:
+
+```bash
