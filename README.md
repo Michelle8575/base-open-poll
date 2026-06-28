@@ -27,3 +27,9 @@ The application is organized around a small set of routes and shared configurati
 - Dedicated voting page
 - Poll detail route for `base-open-poll`
 - Personal activity page
+- Leaderboard page
+- Shared app identity configuration
+- App verification metadata in the root layout
+- Transaction dashboard tracking from the vote button component
+
+## Routes
