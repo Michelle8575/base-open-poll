@@ -41,3 +41,11 @@ The app exposes the following routes:
 - `/poll/base-open-poll`
 - `/my`
 - `/leaderboard`
+
+## Project Structure Notes
+
+Important implementation details are located in the following files:
+
+- `lib/wagmi.ts`
+  - Contains the app-level `dataSuffix` configuration.
+- `lib/app-config.ts`
