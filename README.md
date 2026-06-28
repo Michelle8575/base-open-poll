@@ -49,3 +49,10 @@ Important implementation details are located in the following files:
 - `lib/wagmi.ts`
   - Contains the app-level `dataSuffix` configuration.
 - `lib/app-config.ts`
+  - Contains shared app identity constants.
+- `components/CastVoteButton.tsx`
+  - Sends transaction dashboard tracking when a vote is cast.
+- `app/layout.tsx`
+  - Renders Base app verification meta tags.
+
+## Setup
