@@ -106,3 +106,11 @@ Before making production changes, review the shared app configuration in:
 ```text
 lib/app-config.ts
 ```
+
+Also review the Wagmi configuration in:
+
+```text
+lib/wagmi.ts
+```
+
+If the contract address, app identity, builder code, or ERC-8021 suffix changes, update the relevant configuration carefully.
