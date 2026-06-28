@@ -85,3 +85,10 @@ Open the local site in your browser:
 
 ```text
 http://localhost:3000
+```
+
+## Usage
+
+Visit the home page to enter the app.
+
+Use `/vote` to access the voting flow.
