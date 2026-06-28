@@ -78,3 +78,10 @@ npm install
 Run the local development server:
 
 ```bash
+npm run dev
+```
+
+Open the local site in your browser:
+
+```text
+http://localhost:3000
