@@ -100,3 +100,9 @@ Use `/my` to view personal poll-related activity.
 Use `/leaderboard` to view the leaderboard.
 
 ## Configuration
+
+Before making production changes, review the shared app configuration in:
+
+```text
+lib/app-config.ts
+```
