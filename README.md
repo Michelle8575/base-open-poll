@@ -56,3 +56,9 @@ Important implementation details are located in the following files:
   - Renders Base app verification meta tags.
 
 ## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Michelle8575/base-open-poll.git
+```
