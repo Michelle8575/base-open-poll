@@ -92,3 +92,11 @@ http://localhost:3000
 Visit the home page to enter the app.
 
 Use `/vote` to access the voting flow.
+
+Use `/poll/base-open-poll` to view the main poll route.
+
+Use `/my` to view personal poll-related activity.
+
+Use `/leaderboard` to view the leaderboard.
+
+## Configuration
