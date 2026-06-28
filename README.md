@@ -128,3 +128,11 @@ When deploying updates, verify that all listed routes load correctly and that th
 ## Verification Checklist
 
 Before committing or deploying changes, check the following:
+
+- The home page loads successfully.
+- The vote page loads successfully.
+- The poll route loads successfully.
+- The personal activity page loads successfully.
+- The leaderboard page loads successfully.
+- Shared constants are still correct.
+- Verification meta tags are still rendered from `app/layout.tsx`.
