@@ -121,3 +121,10 @@ The production deployment is available at:
 
 ```text
 https://base-open-poll.vercel.app
+```
+
+When deploying updates, verify that all listed routes load correctly and that the app metadata remains accurate.
+
+## Verification Checklist
+
+Before committing or deploying changes, check the following:
