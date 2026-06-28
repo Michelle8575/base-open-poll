@@ -20,3 +20,10 @@ The application is organized around a small set of routes and shared configurati
 - Base app id: `69cc85f697b57b22030486e9`
 - Builder code: `bc_cx2d8s32`
 - ERC-8021 suffix: `0x62635f63783264387333320b0080218021802180218021802180218021`
+
+## Features
+
+- Public poll landing page
+- Dedicated voting page
+- Poll detail route for `base-open-poll`
+- Personal activity page
