@@ -136,3 +136,10 @@ Before committing or deploying changes, check the following:
 - The leaderboard page loads successfully.
 - Shared constants are still correct.
 - Verification meta tags are still rendered from `app/layout.tsx`.
+- Vote-related tracking remains connected in `components/CastVoteButton.tsx`.
+
+## Notes
+
+This README reflects the currently documented production details and source locations.
+
+Keep this file updated whenever routes, contract details, deployment URLs, or configuration locations change.
