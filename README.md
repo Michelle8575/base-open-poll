@@ -33,3 +33,11 @@ The application is organized around a small set of routes and shared configurati
 - Transaction dashboard tracking from the vote button component
 
 ## Routes
+
+The app exposes the following routes:
+
+- `/`
+- `/vote`
+- `/poll/base-open-poll`
+- `/my`
+- `/leaderboard`
