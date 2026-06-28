@@ -62,3 +62,11 @@ Clone the repository:
 ```bash
 git clone https://github.com/Michelle8575/base-open-poll.git
 ```
+
+Change into the project directory:
+
+```bash
+cd base-open-poll
+```
+
+Install dependencies using the package manager configured for the project:
